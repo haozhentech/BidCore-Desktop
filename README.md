@@ -4,13 +4,13 @@
 
 面向独立投标人员与中小投标团队，支持 Windows。项目文件与资料库保存在用户电脑，AI 功能连接用户自己的模型服务，API 费用由用户向服务商支付。
 
-**发布状态：公开测试版准备中。** 本仓库先提供产品说明、使用文档和问题反馈。安装包通过验收后将在 [Releases](https://github.com/haozhentech/BidCore-Desktop/releases) 提供，当前尚无可下载的公开版本。
+**Windows 公开测试版：0.10.0-canvas.299-beta。** [下载 EXE 安装版](https://github.com/haozhentech/BidCore-Desktop/releases/download/v0.10.0-canvas.299-beta/BidCore-PublicBeta-BYOK-0.10.0-canvas.299-beta-Setup.exe) · [便携版与校验值](https://github.com/haozhentech/BidCore-Desktop/releases/tag/v0.10.0-canvas.299-beta) · [图解入门](https://bidcore.cn/download.html#quickstart)。支持 Windows 10 / 11 x64；当前版本未做代码签名。
 
 ## 工作流程
 
 ![BidCore 项目工作台，使用虚构企业和示例内容](assets/workbench-preview.png)
 
-当前开发版实机截图。示例企业与项目内容均为虚构。
+软件实机截图。示例企业与项目内容均为虚构。
 
 1. 新建项目，选择投标主体并导入招标文件。
 2. 阅读与确认要求、评分点和章节结构。
@@ -31,12 +31,14 @@
 
 ## 当前范围
 
-公开版正在验证货物采购、服务采购及多包等代表流程。复杂工程清单、报价计算和电子投标平台适配以具体版本明确列出的支持范围为准。
+本版提供货物、服务和多包响应文件的整理与编写工作流。多包目录与正文保留所属包别；生成后仍须核对每包范围、评分覆盖和真实证明材料。历史文件回归用于检查软件流程，不代表任意招标文件均能自动完成。
+
+复杂工程清单、报价计算和电子投标平台提交不在本版自动处理范围内。正式导出可能因材料、证据或内容检查未通过而受阻；草稿导出不代表通过投标审查。
 
 发现问题可到 [Issues](https://github.com/haozhentech/BidCore-Desktop/issues) 反馈。请仅提交脱敏的步骤、截图或虚构样例，勿上传 API Key、客户原件或未公开的投标材料。
 
 ## 关于本仓库
 
-这是 BidCore 的公开产品、文档与版本发行仓库。核心软件源码为私有，本仓库不授予该源码的开源许可。二进制软件的使用范围以随版本提供的软件条款为准；第三方组件遵循各自许可证。
+这是 BidCore 的公开产品、文档与版本发行仓库。核心软件源码为私有，本仓库不授予该源码的开源许可。二进制软件适用[公开测试版使用条款](docs/beta-terms.md)；第三方组件遵循各自许可证。
 
 [产品网站](https://bidcore.cn/) · [反馈问题](https://github.com/haozhentech/BidCore-Desktop/issues/new/choose)
