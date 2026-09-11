@@ -4,7 +4,7 @@
 
 面向独立投标人员与中小投标团队，支持 Windows。项目文件与资料库保存在用户电脑，AI 功能连接用户自己的模型服务，API 费用由用户向服务商支付。
 
-**Windows 公开测试版：0.10.0-canvas.299-beta。** [下载 EXE 安装版](https://github.com/haozhentech/BidCore-Desktop/releases/download/v0.10.0-canvas.299-beta/BidCore-PublicBeta-BYOK-0.10.0-canvas.299-beta-Setup.exe) · [便携版与校验值](https://github.com/haozhentech/BidCore-Desktop/releases/tag/v0.10.0-canvas.299-beta) · [图解入门](https://bidcore.cn/download.html#quickstart)。支持 Windows 10 / 11 x64；当前版本未做代码签名。
+**Windows 公开测试版：0.10.0-canvas.300-beta。** [下载 EXE 安装版](https://github.com/haozhentech/BidCore-Desktop/releases/download/v0.10.0-canvas.300-beta/BidCore-PublicBeta-BYOK-0.10.0-canvas.300-beta-Setup.exe) · [便携版与校验值](https://github.com/haozhentech/BidCore-Desktop/releases/tag/v0.10.0-canvas.300-beta) · [图解入门](https://bidcore.cn/download.html#quickstart)。支持 Windows 10 / 11 x64；当前版本未做代码签名。
 
 ## 工作流程
 
@@ -16,7 +16,7 @@
 2. 阅读与确认要求、评分点和章节结构。
 3. 关联企业资料，编写和修改响应内容。
 4. 检查缺失材料与响应问题，完成人工复核。
-5. 导出 Word 文件；正式交付前补齐要求的真实材料。
+5. 选择采购包或汇总范围，导出 Word / PDF；正式交付前补齐要求的真实材料。
 
 ## 本地使用与 AI
 

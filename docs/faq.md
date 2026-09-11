@@ -22,4 +22,4 @@
 
 ## 哪里下载？
 
-在 [Releases](https://github.com/haozhentech/BidCore-Desktop/releases/tag/v0.10.0-canvas.299-beta) 下载安装版或便携版。当前版本未签名，下载无需登记。软件使用范围见公开测试版条款，AI 调用由自己的模型账户计费。
+在 [Releases](https://github.com/haozhentech/BidCore-Desktop/releases/tag/v0.10.0-canvas.300-beta) 下载安装版或便携版。当前版本未签名，下载无需登记。软件使用范围见公开测试版条款，AI 调用由自己的模型账户计费。

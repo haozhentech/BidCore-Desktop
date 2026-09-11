@@ -1,6 +1,6 @@
 # 使用指南
 
-从 [Releases](https://github.com/haozhentech/BidCore-Desktop/releases/tag/v0.10.0-canvas.299-beta) 下载 Setup.exe 并运行安装，或下载 Portable.exe 直接启动。需要 Windows 10 / 11 x64。当前是未签名测试版，Windows 可能提示发布者未知；请核对来源和同版本 SHA256SUMS.txt。安装无需填写 API Key。
+从 [Releases](https://github.com/haozhentech/BidCore-Desktop/releases/tag/v0.10.0-canvas.300-beta) 下载 Setup.exe 并运行安装，或下载 Portable.exe 直接启动。需要 Windows 10 / 11 x64。当前是未签名测试版，Windows 可能提示发布者未知；请核对来源和同版本 SHA256SUMS.txt。安装无需填写 API Key。
 
 PowerShell 校验命令：`Get-FileHash -Algorithm SHA256 -LiteralPath '下载的EXE完整路径'`。将结果与发行页的校验文件对照。
 
@@ -23,7 +23,7 @@ PowerShell 校验命令：`Get-FileHash -Algorithm SHA256 -LiteralPath '下载�
 
 固定表单、报价表和证明附件必须对照招标原件检查。自动识别或填充未覆盖的格式应使用原表补齐；生成草稿不能代替真实资质、报价和签章。
 
-多包项目当前可导出汇总审阅稿。若招标要求各包独立装订，需按各包要求分别整理封面、正文、表单、报价与附件；汇总稿不能直接代替分包提交文件。
+多包项目可在“检查与导出”的“导出范围”中选择采购包，导出该包正文、表单和公共材料；封面与文件名带所选包别。也可选择全部采购包导出汇总审阅稿。每包的报价、附件与原表格式仍需人工核对，汇总稿不能直接代替分包提交文件。
 
 ## 升级与备份
 
