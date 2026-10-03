@@ -3,7 +3,7 @@ description: 报告使用过程中遇到的问题
 body:
   - type: markdown
     attributes:
-      value: 请仅提供脱敏信息。不要上传 API Key、客户原件或未公开投标材料。安全问题请使用 Security 中的私密报告入口。
+      value: 请仅提供脱敏信息。不要上传 BidCore 密钥、API Key、客户原件或未公开投标材料。安全问题请使用 Security 中的私密报告入口。
   - type: input
     id: version
     attributes:

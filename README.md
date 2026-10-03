@@ -1,44 +1,36 @@
 # BidCore
 
-本地投标工作台：整理招标要求，复用企业材料，编写、检查并导出响应文件。
+**BidCore 投标 AI 工作台**，由长沙芠硕科技有限公司（芠硕科技）开发和运营。
 
-面向独立投标人员与中小投标团队，支持 Windows。项目文件与资料库保存在用户电脑，AI 功能连接用户自己的模型服务，API 费用由用户向服务商支付。
+导入招标文件，AI 逐条读懂要求，生成大纲和正文；写好的标书可以交给“标书审查”逐段找问题，在画布上逐条改完，再按原文件格式导出 Word。
 
-**Windows 公开测试版：0.10.0-canvas.300-beta。** [下载 EXE 安装版](https://github.com/haozhentech/BidCore-Desktop/releases/download/v0.10.0-canvas.300-beta/BidCore-PublicBeta-BYOK-0.10.0-canvas.300-beta-Setup.exe) · [便携版与校验值](https://github.com/haozhentech/BidCore-Desktop/releases/tag/v0.10.0-canvas.300-beta) · [图解入门](https://bidcore.cn/download.html#quickstart)。支持 Windows 10 / 11 x64；当前版本未做代码签名。
+**当前版本：Windows 正式版 1.0.6。** [下载与发行说明](https://github.com/haozhentech/BidCore-Desktop/releases/latest) · [官网下载页](https://bidcore.wenshuotech.cn/download.html)。支持 Windows 10 / 11 x64；安装包暂未做代码签名，请核对发行页的 SHA256SUMS.txt。官网 bidcore.cn 备案期间暂用 bidcore.wenshuotech.cn。
 
-## 工作流程
+![BidCore 画布上的文档卡：选中段落让 AI 修改，先看标出的改动再替换（示例项目，内容虚构）](assets/doc-card.png)
 
-![BidCore 项目工作台，使用虚构企业和示例内容](assets/workbench-preview.png)
+## 能做什么
 
-软件实机截图。示例企业与项目内容均为虚构。
+- **读标**：导入招标文件（Word、PDF、扫描件），整理资格要求、评分项、废标条款和投标文件组成。
+- **写标**：按招标要求生成大纲和正文，接入公司档案、资质和业绩材料；在画布的文档卡里选中段落让 AI 修改，先看标出的改动再替换。
+- **审标**：写好的标书（含旧版 .doc）逐段审查，和招标文件、公司档案核对；导出批注版 Word、审查意见单，或导入画布逐条修改后按原文件格式导出。
+- **导出**：Word / PDF，多包项目可以按采购包分别导出。
 
-1. 新建项目，选择投标主体并导入招标文件。
-2. 阅读与确认要求、评分点和章节结构。
-3. 关联企业资料，编写和修改响应内容。
-4. 检查缺失材料与响应问题，完成人工复核。
-5. 选择采购包或汇总范围，导出 Word / PDF；正式交付前补齐要求的真实材料。
+## 计费与数据
 
-## 本地使用与 AI
+- 软件限时免费下载。写作、识图、配图和标书审查都从 BidCore 密钥的积分里按用量扣，价格见官网[价格页](https://bidcore.wenshuotech.cn/pricing.html)；私有化部署按项目单独报价。
+- 项目和资料保存在你的电脑上。使用 AI 时，完成任务所需的内容会经 BidCore 的服务器转发给模型服务商处理；服务器只记录调用的密钥、时间、模型和用量，用于计费，不保存你发送的内容。详见[数据与模型服务](docs/data-and-ai.md)。
+- 生成和审查的结果都需要人工复核；报价、资质、签章和最终版式由投标人确认。
 
-- 企业档案、项目和资料库按投标主体组织。
-- 使用自己的 API Key，不需要消耗开发者的模型额度。
-- 提供可离线查看和编辑的示例项目；调用 AI 时再配置自己的模型服务。
-- 使用云端 AI 时，完成该任务所需的相关内容会发送到配置的模型服务。
-- 使用者决定连接哪些服务，并遵守对应服务条款和所在组织的数据要求。
-- 生成结果需要人工核对，软件不会代替签章、报价决策或交易平台提交。
+## 文档
 
-详见 [使用指南](docs/getting-started.md)、[数据与模型服务说明](docs/data-and-ai.md)、[常见问题](docs/faq.md) 和 [更新记录](CHANGELOG.md)。
-
-## 当前范围
-
-本版提供货物、服务和多包响应文件的整理与编写工作流。多包目录与正文保留所属包别；生成后仍须核对每包范围、评分覆盖和真实证明材料。历史文件回归用于检查软件流程，不代表任意招标文件均能自动完成。
-
-复杂工程清单、报价计算和电子投标平台提交不在本版自动处理范围内。正式导出可能因材料、证据或内容检查未通过而受阻；草稿导出不代表通过投标审查。
-
-发现问题可到 [Issues](https://github.com/haozhentech/BidCore-Desktop/issues) 反馈。请仅提交脱敏的步骤、截图或虚构样例，勿上传 API Key、客户原件或未公开的投标材料。
+[使用指南](docs/getting-started.md) · [数据与模型服务](docs/data-and-ai.md) · [常见问题](docs/faq.md) · [更新记录](CHANGELOG.md) · [使用条款](docs/beta-terms.md)
 
 ## 关于本仓库
 
-这是 BidCore 的公开产品、文档与版本发行仓库。核心软件源码为私有，本仓库不授予该源码的开源许可。二进制软件适用[公开测试版使用条款](docs/beta-terms.md)；第三方组件遵循各自许可证。
+这是 BidCore 的公开发行与反馈仓库：发布安装包、发行说明和产品文档，收集问题反馈。核心软件源码为私有，本仓库不授予源码的开源许可；第三方组件遵循各自的许可证。
 
-[产品网站](https://bidcore.cn/) · [反馈问题](https://github.com/haozhentech/BidCore-Desktop/issues/new/choose)
+使用条款以官网的[用户协议](https://bidcore.wenshuotech.cn/terms.html)和[隐私政策](https://bidcore.wenshuotech.cn/privacy.html)为准。
+
+发现问题请到 [Issues](https://github.com/haozhentech/BidCore-Desktop/issues/new/choose) 反馈，只提交脱敏的步骤、截图或虚构样例，不要上传密钥、客户原件或未公开的投标材料；安全问题请用 Security 里的私密报告入口。
+
+© 2026 长沙芠硕科技有限公司 · [BidCore 官网](https://bidcore.wenshuotech.cn/) · [芠硕科技](https://wenshuotech.cn/)
