@@ -2,10 +2,10 @@
 
 BidCore 由长沙芠硕科技有限公司开发和运营。1.0 正式版及之后的版本，使用条款以官网的用户协议和隐私政策为准：
 
-- [用户协议](https://bidcore.wenshuotech.cn/terms.html)
-- [隐私政策](https://bidcore.wenshuotech.cn/privacy.html)
+- [用户协议](https://bidcore.cn/terms.html)
+- [隐私政策](https://bidcore.cn/privacy.html)
 
-（官网 bidcore.cn 备案期间暂用 bidcore.wenshuotech.cn，两个网址的内容相同。）
+（bidcore.wenshuotech.cn 是同一个官网的备用网址，内容相同。）
 
 本仓库发布的安装包与官网下载的安装包相同，适用同一份用户协议。BidCore 软件的著作权，以及“BidCore”名称、标识等相关权利，归长沙芠硕科技有限公司所有。核心软件源码为私有，本仓库和安装包不授予源码的开源许可；第三方组件的权利与义务依各自许可证执行。
 

@@ -6,7 +6,7 @@ BidCore 由长沙芠硕科技有限公司（芠硕科技）开发和运营。
 
 ## 怎么收费？
 
-软件限时免费下载。写作、识图、配图和标书审查按用量从 BidCore 密钥的积分里扣，积分包和月计划的价格见官网[价格页](https://bidcore.wenshuotech.cn/pricing.html)。私有化部署按项目单独报价。
+软件限时免费下载。写作、识图、配图和标书审查按用量从 BidCore 密钥的积分里扣，积分包和月计划的价格见官网[价格页](https://bidcore.cn/pricing.html)。私有化部署按项目单独报价。
 
 ## 资料会上传吗？
 
@@ -22,4 +22,4 @@ BidCore 由长沙芠硕科技有限公司（芠硕科技）开发和运营。
 
 ## 哪里下载？
 
-官网[下载页](https://bidcore.wenshuotech.cn/download.html)或本仓库的 [Releases](https://github.com/haozhentech/BidCore-Desktop/releases/latest)。安装版有新版本时会提示更新。
+官网[下载页](https://bidcore.cn/download.html)或本仓库的 [Releases](https://github.com/haozhentech/BidCore-Desktop/releases/latest)。安装版有新版本时会提示更新。
